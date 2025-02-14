@@ -40,7 +40,7 @@ echo "PROJECT_PATH=$(git rev-parse --show-toplevel)" >> container/.env
 docker compose -f container/docker-compose.yaml up -d
 ```
 
-#### 3. Convert the LaTeX Resume to DOCX
+### 3. Convert the LaTeX Resume to DOCX
 
 Access the running container and execute the conversion command:
 
